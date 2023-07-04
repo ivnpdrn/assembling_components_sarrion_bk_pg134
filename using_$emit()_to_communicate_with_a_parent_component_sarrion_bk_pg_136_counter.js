@@ -12,7 +12,7 @@ const Counter = {
         @keydown="verif($event)"
         @input="calcul()"
         @focus="focus()"
-        @blur="bllur()" />
+        @blur="blur()" />
    
     `,
 
