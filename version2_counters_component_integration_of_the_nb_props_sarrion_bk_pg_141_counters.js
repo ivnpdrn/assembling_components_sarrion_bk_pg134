@@ -48,3 +48,9 @@ export default Counters;
 // The add(value) and sub (value) processing methods are registred in the parent component, which allows the value of the total to be changed
 
 // each time a numeric key is pressed on the keyboard.
+
+// * the "nb" props are listed in the component's props section. To display a list of counters, use the v-form directive on a <div> element.
+
+// * How to Use the v-for Directive
+// For the value of the v-form directive, you must specify an array to browse. To do this, we transform the value of the "nb" props into an array
+// [1, 2, 3, ..., nb]. This is done using a computed property named NB, which returns the desired array.
